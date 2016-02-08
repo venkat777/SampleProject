@@ -9,13 +9,15 @@
 /* Begin PBXBuildFile section */
 		0D990DA61C6327E6004EE9CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D990DA51C6327E6004EE9CE /* main.m */; };
 		0D990DA91C6327E6004EE9CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D990DA81C6327E6004EE9CE /* AppDelegate.m */; };
-		0D990DAC1C6327E6004EE9CE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D990DAB1C6327E6004EE9CE /* ViewController.m */; };
 		0D990DAF1C6327E6004EE9CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D990DAD1C6327E6004EE9CE /* Main.storyboard */; };
 		0D990DB21C6327E6004EE9CE /* SampleCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0D990DB01C6327E6004EE9CE /* SampleCoreData.xcdatamodeld */; };
 		0D990DB41C6327E6004EE9CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D990DB31C6327E6004EE9CE /* Assets.xcassets */; };
 		0D990DB71C6327E6004EE9CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D990DB51C6327E6004EE9CE /* LaunchScreen.storyboard */; };
 		0D990DC21C6327E6004EE9CE /* SampleCoreDataTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D990DC11C6327E6004EE9CE /* SampleCoreDataTests.m */; };
 		0D990DCD1C6327E6004EE9CE /* SampleCoreDataUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D990DCC1C6327E6004EE9CE /* SampleCoreDataUITests.m */; };
+		0D990DDE1C63299B004EE9CE /* StudentData+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D990DDB1C63299B004EE9CE /* StudentData+CoreDataProperties.m */; };
+		0D990DDF1C63299B004EE9CE /* StudentData.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D990DDD1C63299B004EE9CE /* StudentData.m */; };
+		0D990DE21C63553F004EE9CE /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D990DE11C63553F004EE9CE /* TableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +42,6 @@
 		0D990DA51C6327E6004EE9CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0D990DA71C6327E6004EE9CE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0D990DA81C6327E6004EE9CE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0D990DAA1C6327E6004EE9CE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0D990DAB1C6327E6004EE9CE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		0D990DAE1C6327E6004EE9CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0D990DB11C6327E6004EE9CE /* SampleCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SampleCoreData.xcdatamodel; sourceTree = "<group>"; };
 		0D990DB31C6327E6004EE9CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,6 +53,12 @@
 		0D990DC81C6327E6004EE9CE /* SampleCoreDataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleCoreDataUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D990DCC1C6327E6004EE9CE /* SampleCoreDataUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleCoreDataUITests.m; sourceTree = "<group>"; };
 		0D990DCE1C6327E6004EE9CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D990DDA1C63299B004EE9CE /* StudentData+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "StudentData+CoreDataProperties.h"; sourceTree = "<group>"; };
+		0D990DDB1C63299B004EE9CE /* StudentData+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "StudentData+CoreDataProperties.m"; sourceTree = "<group>"; };
+		0D990DDC1C63299B004EE9CE /* StudentData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentData.h; sourceTree = "<group>"; };
+		0D990DDD1C63299B004EE9CE /* StudentData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentData.m; sourceTree = "<group>"; };
+		0D990DE01C63553F004EE9CE /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		0D990DE11C63553F004EE9CE /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +89,10 @@
 		0D990D981C6327E6004EE9CE = {
 			isa = PBXGroup;
 			children = (
+				0D990DDA1C63299B004EE9CE /* StudentData+CoreDataProperties.h */,
+				0D990DDB1C63299B004EE9CE /* StudentData+CoreDataProperties.m */,
+				0D990DDC1C63299B004EE9CE /* StudentData.h */,
+				0D990DDD1C63299B004EE9CE /* StudentData.m */,
 				0D990DA31C6327E6004EE9CE /* SampleCoreData */,
 				0D990DC01C6327E6004EE9CE /* SampleCoreDataTests */,
 				0D990DCB1C6327E6004EE9CE /* SampleCoreDataUITests */,
@@ -105,8 +115,8 @@
 			children = (
 				0D990DA71C6327E6004EE9CE /* AppDelegate.h */,
 				0D990DA81C6327E6004EE9CE /* AppDelegate.m */,
-				0D990DAA1C6327E6004EE9CE /* ViewController.h */,
-				0D990DAB1C6327E6004EE9CE /* ViewController.m */,
+				0D990DE01C63553F004EE9CE /* TableViewController.h */,
+				0D990DE11C63553F004EE9CE /* TableViewController.m */,
 				0D990DAD1C6327E6004EE9CE /* Main.storyboard */,
 				0D990DB31C6327E6004EE9CE /* Assets.xcassets */,
 				0D990DB51C6327E6004EE9CE /* LaunchScreen.storyboard */,
@@ -210,6 +220,7 @@
 				TargetAttributes = {
 					0D990DA01C6327E6004EE9CE = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 7AYTE9U7KM;
 					};
 					0D990DBC1C6327E6004EE9CE = {
 						CreatedOnToolsVersion = 7.2;
@@ -274,8 +285,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D990DB21C6327E6004EE9CE /* SampleCoreData.xcdatamodeld in Sources */,
-				0D990DAC1C6327E6004EE9CE /* ViewController.m in Sources */,
+				0D990DDF1C63299B004EE9CE /* StudentData.m in Sources */,
 				0D990DA91C6327E6004EE9CE /* AppDelegate.m in Sources */,
+				0D990DDE1C63299B004EE9CE /* StudentData+CoreDataProperties.m in Sources */,
+				0D990DE21C63553F004EE9CE /* TableViewController.m in Sources */,
 				0D990DA61C6327E6004EE9CE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -348,7 +361,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Reliance Jio Infocomm USA, Inc.";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: venkataramana Gudla (2L77RX8H5S)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -370,6 +384,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "ec908b41-310d-44b8-8fbd-224ef1ff184a";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -391,7 +406,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Reliance Jio Infocomm USA, Inc.";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: venkataramana Gudla (2L77RX8H5S)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -406,6 +422,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "ec908b41-310d-44b8-8fbd-224ef1ff184a";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -415,10 +432,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: venkataramana Gudla (2L77RX8H5S)";
 				INFOPLIST_FILE = SampleCoreData/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = coupan.com.SampleCoreData;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "ec908b41-310d-44b8-8fbd-224ef1ff184a";
 			};
 			name = Debug;
 		};
@@ -426,10 +445,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: venkataramana Gudla (2L77RX8H5S)";
 				INFOPLIST_FILE = SampleCoreData/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = coupan.com.SampleCoreData;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "ec908b41-310d-44b8-8fbd-224ef1ff184a";
 			};
 			name = Release;
 		};
@@ -500,6 +521,7 @@
 				0D990DD31C6327E6004EE9CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0D990DD41C6327E6004EE9CE /* Build configuration list for PBXNativeTarget "SampleCoreDataTests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +530,7 @@
 				0D990DD61C6327E6004EE9CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0D990DD71C6327E6004EE9CE /* Build configuration list for PBXNativeTarget "SampleCoreDataUITests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +539,7 @@
 				0D990DD91C6327E6004EE9CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

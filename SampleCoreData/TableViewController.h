@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  TableViewController.h
 //  SampleCoreData
 //
 //  Created by VENKATARAMANA on 04/02/16.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface TableViewController : UITableViewController<UITableViewDelegate,UITableViewDataSource>
 
 @end
-
