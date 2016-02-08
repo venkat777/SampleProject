@@ -361,8 +361,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: venkataramana Gudla (2L77RX8H5S)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: venkataramana Gudla (2L77RX8H5S)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Reliance Jio Infocomm USA, Inc.";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Reliance Jio Infocomm USA, Inc.";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -384,7 +384,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				PROVISIONING_PROFILE = "ec908b41-310d-44b8-8fbd-224ef1ff184a";
+				PROVISIONING_PROFILE = "e5d25386-0032-4984-9074-2bfedf2bd0ab";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -406,8 +406,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: venkataramana Gudla (2L77RX8H5S)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: venkataramana Gudla (2L77RX8H5S)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Reliance Jio Infocomm USA, Inc.";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Reliance Jio Infocomm USA, Inc.";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -422,7 +422,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				PROVISIONING_PROFILE = "ec908b41-310d-44b8-8fbd-224ef1ff184a";
+				PROVISIONING_PROFILE = "e5d25386-0032-4984-9074-2bfedf2bd0ab";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
